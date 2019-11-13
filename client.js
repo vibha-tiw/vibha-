@@ -18,7 +18,7 @@ export class ProductListComponent implements OnInit {
       .subscribe(response => {
         this.products = response as []
         console.log(this.products)
-      })
+      
   }
 
 }

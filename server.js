@@ -11,4 +11,3 @@ app.get('/product', (request, response) => {
         connection.end()
         response.send(products)
     })
-})
